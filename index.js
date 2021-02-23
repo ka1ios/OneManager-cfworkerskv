@@ -1,5 +1,5 @@
 
-var THEME = 'https://github.com/qkqpttgf/OneManager-php/raw/master/theme/classic.html';
+var THEME = 'https://github.com/ka1ios/OneManager-php/raw/master/theme/classic.html';
 var OMKV;
 var disk = new Object();
 var GET;
@@ -838,7 +838,7 @@ async function setup() {
   }
   html += '\n\
 <a href="' + preurl + '">返回</a><br>\n\
-<a href="https://github.com/qkqpttgf/OneManager-php">Github</a><br>';
+<a href="https://github.com/ka1ios/OneManager-php">Github</a><br>';
 
   html += '\n\
 <table border=1 width=100%>\n\
@@ -1820,7 +1820,7 @@ async function render(path, files) {
   let authinfo =`
 <!--
     OneManager: An index & manager of Onedrive auth by ysun.
-    Github: https://github.com/qkqpttgf/OneManager-php
+    Github: https://github.com/ka1ios/OneManager-php
 -->`;
 
   let theme1 = await fetch(THEME);
